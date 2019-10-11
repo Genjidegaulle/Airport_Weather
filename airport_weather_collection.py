@@ -13,12 +13,9 @@
 """
 Example script that scrapes data from the IEM ASOS download service
 """
-from __future__ import print_function
-import json
 import time
 import datetime
 import pandas as pd
-import numpy as np
 # Python 2 and 3: alternative 4
 try:
     from urllib.request import urlopen
