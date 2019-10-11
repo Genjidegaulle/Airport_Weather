@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # coding: utf-8
 
 # ### Additional Weather Data Collection ###
@@ -9,6 +9,16 @@
 
 # In[1]:
 
+print("Program: Airport Weather Collection")
+print("Release: 1.0.2")
+print("Date: 2019-10-12")
+print("Author: David Liau")
+print()
+print()
+print("This program extracts weather data for the top 100 US international airports.")
+print("A huge thanks to Iowa Environmental Mesonet, as well as Daryl Herzmann, who provided the baseline code for this program.")
+print()
+print()
 
 """
 Example script that scrapes data from the IEM ASOS download service
@@ -162,7 +172,3 @@ weather_aggregated.to_csv('weather_full_aggregated.csv')
 
 
 # In[ ]:
-
-
-
-
