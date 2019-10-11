@@ -137,6 +137,7 @@ weather_a = weather[['Temperature', 'Dew Point Temp', 'Relative Humidity %', 'On
 weather_a = weather_a.apply(pd.to_numeric, errors='coerce')
 weather_a.insert(0, 'Airport', weather['Airport'])
 weather_a.insert(1, 'Date', weather['Date'])
+weather_a.to_csv('weather_unaggregated.csv')
 
 
 # In[7]:
